@@ -1,0 +1,53 @@
+
+
+Alzheimer's Disease Detection Using Deep Learning
+
+Problem Statement
+Alzheimer's Disease is a progressive neurological disorder that affects millions globally. Early and accurate detection is critical to slow progression and improve patient outcomes. Manual diagnosis through MRI is time-consuming and subjective.
+
+Abstract
+This project develops an AI-powered solution using deep learning techniques to automate the detection and classification of Alzheimer's Disease from brain MRI scans. By leveraging transfer learning and modern web technologies, we deliver a fast, reliable, and user-friendly diagnostic support tool.
+
+Methodology
+- Data Collection: Alzheimer's MRI dataset from public medical sources
+- Preprocessing: Image normalization, resizing, and augmentation
+- Model Training: Fine-tuning VGG16 pre-trained CNN
+- Deployment: Flask web server integrated with the trained model
+- Frontend: Tailwind CSS and responsive UI for easy user interaction
+- Testing and Validation: Ensuring high prediction accuracy and user experience
+
+Objectives
+- To automate the classification of Alzheimer's disease stages.
+- To assist healthcare professionals with faster preliminary diagnosis.
+- To provide a simple, accessible platform for MRI analysis.
+
+Technology Used
+- Python
+- TensorFlow/Keras
+- Flask
+- HTML5, Tailwind CSS
+- Jupyter Notebook
+- Numpy, Pandas
+
+Tech Stack
+- **Frontend:** HTML5 + Tailwind CSS
+- **Backend:** Flask (Python)
+- **AI Model:** VGG16 fine-tuned for MRI classification
+- **Database:** None (no user data stored)
+- **Deployment:** Localhost (can be extended to AWS/GCP)
+
+Model Used
+- **VGG16 (Transfer Learning)**
+- Fine-tuned on Alzheimer's MRI dataset
+- Classification into: Non-Demented, Very Mild Demented, Mild Demented, Moderate Demented
+
+Conclusion
+The Alzheimer Detector successfully predicts different stages of Alzheimer's Disease from brain MRI images. It reduces diagnostic time, assists doctors, and promotes early intervention strategies. Future improvements can involve multi-modal data fusion and cloud-based deployment.
+
+References
+- Alzheimer's Disease Neuroimaging Initiative (ADNI)
+- Keras and TensorFlow documentation
+- VGG16 Research Paper: "Very Deep Convolutional Networks for Large-Scale Image Recognition" (Simonyan & Zisserman)
+
+ 🔗 GitHub Link
+> [Zeline Projects GitHub Repository](https://github.com/zelineprojects/alzheimer-detector)
