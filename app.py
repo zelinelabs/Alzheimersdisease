@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 app = Flask(__name__)
-model = load_model('/Users/sagarsoni/Downloads/weapon detection/VGG16.h5')  # Make sure VGG16.h5 is in the same directory
+model = load_model('VGG16.h5')  # Make sure VGG16.h5 is in the same directory
 
 # Class labels based on your Alzheimer's dataset
 class_names = ['Mild Demented', 'Moderate Demented', 'Non Demented', 'Very Mild Demented']
