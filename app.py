@@ -11,7 +11,7 @@ for device in physical_devices:
     tf.config.experimental.set_memory_growth(device, True)
 
 # Load model once at startup
-model = load_model('Alzheimer_Disease.h5')
+model = load_model('VGG16.h5')
 
 app = Flask(__name__)
 
