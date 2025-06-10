@@ -28,7 +28,7 @@ def predict():
             model = load_model('VGG16.h5')
 
         # Read and preprocess the image
-        img = image.load_img(BytesIO(file.read()), target_size=(128, 128))
+        img = image.load_img(BytesIO(file.read()), target_size=(224, 224))
         img_array = image.img_to_array(img)
         img_array = np.expand_dims(img_array, axis=0) / 255.0
 
